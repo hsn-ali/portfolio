@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/hsn-ali/portfolio/issues"
   },
-  "homepage": ".",
+  "homepage": "https://github.com/hsn-ali/portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.0",
     "parcel": "^2.10.0",
@@ -34,10 +37,12 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.0.0",
     "html-react-parser": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.3"
   }
 }
