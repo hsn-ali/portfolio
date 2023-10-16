@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './src/app/index.scss';
+import './app/index.scss';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
-import Layout from "./src/app/components/Layout";
+import Layout from "./app/components/Layout";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Skill from "./src/app/components/Skill";
-import NotFound from "./src/app/components/NotFound";
+import Skill from "./app/components/Skill";
+import NotFound from "./app/components/NotFound";
 
 const appRouter = createBrowserRouter([
     {
