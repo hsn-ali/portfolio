@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "npx parcel index.html",
     "build": "parcel build src/index.html",
-    "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
+    "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --https://github.com/hsn-ali/portfolio ./",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
