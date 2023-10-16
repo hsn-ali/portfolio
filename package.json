@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/hsn-ali/portfolio/issues"
   },
-  "homepage": "https://github.com/hsn-ali/portfolio#readme",
+  "homepage": ".",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.0",
     "parcel": "^2.10.0",
