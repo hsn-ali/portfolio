@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "portfolio for Hassan Ali",
+  "source": "src/index.html",
   "scripts": {
     "test": "jest",
     "start": "npx parcel src/index.html",
