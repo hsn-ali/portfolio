@@ -3,11 +3,11 @@ import './app/index.scss';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import Layout from "./app/components/Layout";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Skill from "./app/components/Skill";
 import NotFound from "./app/components/NotFound";
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
     {
         path: '/',
         element: <Layout/>,
