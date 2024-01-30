@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './app/index.scss';
+import './index.css';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import Layout from "./app/components/Layout";

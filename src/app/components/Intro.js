@@ -1,5 +1,6 @@
 
 import svg from './../../asset/projects/itsm.svg'
+import img from './../../asset/info/Frame 1.png'
 import {Link} from "react-router-dom";
 const Intro = () => {
     return (
@@ -24,8 +25,8 @@ const Intro = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col">
-                    <img src={svg} height="450"/>
+                <div className="col flex justify-end">
+                    <img src={img} height="450"/>
                 </div>
             </div>
         </div>
