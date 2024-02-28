@@ -1,0 +1,329 @@
+
+body {
+  height: 100vh;
+}
+
+#root {
+  background: rgba(16, 16, 26, 1);
+}
+
+.header {
+  height: 100px;
+  background: transparent;
+  align-items: center;
+  z-index: 9;
+}
+.head {
+  background: linear-gradient(#10101a,rgba(16,16,26,0));
+  backdrop-filter: blur(3px);
+  z-index: 50;
+   position: sticky;
+   top: 0;
+ }
+
+.name-animation {
+  background: linear-gradient(-45deg, #14f1d9, #3672f8, #14f1d9, #3672f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+
+.div-text {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.card-itsm {
+  border-radius: 5px 5px 0 0;
+  min-height: 13rem;
+}
+
+.card-e2e {
+  background-color: rgb(19, 39, 46);
+  border-radius: 5px 5px 0 0;
+  min-height: 13rem;
+}
+
+.card-img-top {
+  min-height: 13rem;
+}
+
+.card-border {
+  border-color: #004AB8 !important;
+}
+
+.card-border-e2e {
+  border-color: rgb(19, 39, 46) !important;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: #002967;
+}
+
+.card-des {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.card-info {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+.bg-itsm {
+  background: #1555b2cf;
+}
+.bg-e2e {
+  background: #233e4761;
+  min-height: 268px;
+  color: white
+}
+.text-white {
+  color: white;
+}
+
+.fix-height {
+  min-height: 850px;
+  display: flex;
+}
+
+.custom-h1 {
+  font-size: 1.7rem;
+  --tw-text-opacity: 1;
+  color: rgba(229,231,235,var(--tw-text-opacity));
+}
+
+.summary {
+  line-height: 1.4;
+  font-size: x-large;
+}
+.description {
+  --tw-text-opacity: 1;
+  color: rgba(156,163,175,var(--tw-text-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: .05em;
+}
+.name {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
+.typewriter {
+   font-family: Poppins, monospace;
+   display: inline-block;
+ }
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 4rem;
+  font-weight: 700;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.custom-btn {
+  color: #fff;
+  margin: 10px 5px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+.custom-btn:hover {
+  background: white;
+  color: black
+}
+
+
+
+
+
+
+/*== start of code for tooltips ==*/
+.tool {
+  cursor: help;
+  position: relative;
+}
+
+
+/*== common styles for both parts of tool tip ==*/
+.tool::before,
+.tool::after {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  z-index: -100;
+}
+
+.tool:hover::before,
+.tool:focus::before,
+.tool:hover::after,
+.tool:focus::after {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  z-index: 100;
+}
+
+
+/*== pointer tip ==*/
+.tool::before {
+  border-style: solid;
+  border-width: 1em 0.75em 0 0.75em;
+  border-color: #3E474F transparent transparent transparent;
+  bottom: 100%;
+  content: "";
+  margin-left: -0.5em;
+  transition: all .65s cubic-bezier(.84,-0.18,.31,1.26), opacity .65s .5s;
+  transform:  scale(.6) translateY(-90%);
+}
+
+.tool:hover::before,
+.tool:focus::before {
+  transition: all .65s cubic-bezier(.84,-0.18,.31,1.26) .2s;
+}
+
+
+/*== speech bubble ==*/
+.tool::after {
+  background: #3e474f;
+  border-radius: 0.5em;
+  width: 11em;
+  margin-left: -5.25em;
+  padding: 1em;
+  transition: all .65s cubic-bezier(.84, -.18, .31, 1.26) .2s;
+  bottom: 120%;
+  color: #EDEFF0;
+  content: attr(data-tip);
+  transform:  scale(.6) translateY(50%);
+}
+
+.tool:hover::after,
+.tool:focus::after  {
+  transition: all .65s cubic-bezier(.84,-0.18,.31,1.26);
+}
+
+@media (max-width: 760px) {
+  .tool::after {
+    font-size: .75em;
+    margin-left: -5em;
+    width: 10em;
+  }
+}
+
+
+
+
+@mixin white-gradient {
+  background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 10s;
+
+// Animation
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  95% { transform: translateX(calc(-475px)); }
+  100% { transform: translateX(0); }
+}
+
+
+// Styling
+.slider {
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  margin: auto;
+  overflow:hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    position: absolute;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+  }
+
+  .slide {
+    height: 100px;
+    width: 250px;
+  }
+}
+.slider:hover .slide-track {
+    animation-play-state: paused;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio for Hassan Ali",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "parcel build src/index.html --no-source-maps --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsn-ali/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "Hassan",
+    "Ali",
+    "hsn",
+    "ali",
+    "hassan"
+  ],
+  "author": "Hassan Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsn-ali/portfolio/issues"
+  },
+  "homepage": "https://hsn-ali.github.io/portfolio",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "gh-pages": "^6.0.0",
+    "html-react-parser": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
