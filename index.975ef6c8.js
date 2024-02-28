@@ -2994,7 +2994,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./app/index.scss":"xXRoV","react-dom/client":"lOjBx","react":"21dqq","./app/components/Layout":"8NkAr","react-router-dom":"9xmpe","./app/components/Skill":"4fs0Y","./app/components/NotFound":"5pB9d","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./index.css":"irmnC"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./app/index.scss":"xXRoV","./index.css":"irmnC","react-dom/client":"lOjBx","react":"21dqq","./app/components/Layout":"8NkAr","react-router-dom":"9xmpe","./app/components/Skill":"4fs0Y","./app/components/NotFound":"5pB9d","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -5699,7 +5699,7 @@ module.exports = require("a569817e6ea559f6");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"xXRoV":[function() {},{}],"lOjBx":[function(require,module,exports) {
+},{}],"xXRoV":[function() {},{}],"irmnC":[function() {},{}],"lOjBx":[function(require,module,exports) {
 "use strict";
 var m = require("aaccff5d309d9239");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
@@ -27337,7 +27337,45 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./../../asset/info/menu.svg":"7NKDc"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./../../asset/info/menu.svg":"7NKDc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7NKDc":[function(require,module,exports) {
+module.exports = require("f5c868420c8d1841").getBundleURL("bLxZJ") + "menu.3cf50954.svg" + "?" + Date.now();
+
+},{"f5c868420c8d1841":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27505,129 +27543,92 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"7NKDc":[function(require,module,exports) {
-module.exports = require("f5c868420c8d1841").getBundleURL("bLxZJ") + "menu.3cf50954.svg" + "?" + Date.now();
-
-},{"f5c868420c8d1841":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"6Jhe4":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"6Jhe4":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$22ed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$22ed.prelude(module);
 
 try {
+// import about from "../../asset/about/about.jpeg"
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _aboutJpeg = require("../../asset/about/about.jpeg");
-var _aboutJpegDefault = parcelHelpers.interopDefault(_aboutJpeg);
+var _frame2Png = require("../../asset/info/Frame 2.png");
+var _frame2PngDefault = parcelHelpers.interopDefault(_frame2Png);
 var _reactRouterDom = require("react-router-dom");
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "flex flex-col fix-height",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center text-white py-10",
+                className: "flex justify-center text-white",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                     className: "name",
                     children: "About"
                 }, void 0, false, {
                     fileName: "src/app/components/About.js",
-                    lineNumber: 7,
+                    lineNumber: 8,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/app/components/About.js",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "grid sm:grid-cols-2 items-center justify-center gap-4",
+                className: "grid sm:grid-cols-2 items-center justify-center gap-4 h-[860px] mt-[-50px]",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "flex flex-col items-center justify-center text-white",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-left sm:text-center",
+                            className: "text-center sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "p-2",
+                                    className: "p-2 text-center",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: "Know"
                                     }, void 0, false, {
                                         fileName: "src/app/components/About.js",
-                                        lineNumber: 13,
+                                        lineNumber: 14,
                                         columnNumber: 29
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/app/components/About.js",
-                                    lineNumber: 12,
+                                    lineNumber: 13,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "p-2",
+                                    className: "p-2 text-center",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "text-white",
                                         children: "About Me"
                                     }, void 0, false, {
                                         fileName: "src/app/components/About.js",
-                                        lineNumber: 16,
+                                        lineNumber: 17,
                                         columnNumber: 29
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/app/components/About.js",
-                                    lineNumber: 15,
+                                    lineNumber: 16,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "p-2 div-text",
+                                    className: "p-2 div-text text-center",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: "A Little Something \uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB "
                                     }, void 0, false, {
                                         fileName: "src/app/components/About.js",
-                                        lineNumber: 19,
+                                        lineNumber: 20,
                                         columnNumber: 29
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/app/components/About.js",
-                                    lineNumber: 18,
+                                    lineNumber: 19,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "p-2 div-text",
+                                    className: "p-2 div-text pl-[70px]",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         style: {
                                             "lineHeight": "1.9rem",
@@ -27637,29 +27638,29 @@ const About = ()=>{
                                             "Hello, My name is Hassan Ali and I enjoy creating things on internet. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/app/components/About.js",
-                                                lineNumber: 22,
+                                                lineNumber: 23,
                                                 columnNumber: 158
                                             }, undefined),
                                             "I'm Full Stack Developer having very strong foundation on Frontend Side and focuses ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/app/components/About.js",
-                                                lineNumber: 23,
+                                                lineNumber: 24,
                                                 columnNumber: 113
                                             }, undefined),
                                             "on crafting clean and user-friendly experience"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/app/components/About.js",
-                                        lineNumber: 22,
+                                        lineNumber: 23,
                                         columnNumber: 29
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/app/components/About.js",
-                                    lineNumber: 21,
+                                    lineNumber: 22,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "p-2 div-text",
+                                    className: "p-2 div-text pl-[70px]",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         style: {
                                             "lineHeight": "1.9rem",
@@ -27669,67 +27670,66 @@ const About = ()=>{
                                             "I'm passionate about translating ideas into reality through collaboration ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/app/components/About.js",
-                                                lineNumber: 27,
+                                                lineNumber: 28,
                                                 columnNumber: 162
                                             }, undefined),
                                             "and continuous learning. I stay updated with the latest trends, actively engage in projects, ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/app/components/About.js",
-                                                lineNumber: 28,
+                                                lineNumber: 29,
                                                 columnNumber: 126
                                             }, undefined),
                                             "and value mentorship for meaningful impact in various settings."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/app/components/About.js",
-                                        lineNumber: 27,
+                                        lineNumber: 28,
                                         columnNumber: 29
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/app/components/About.js",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 25
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/app/components/About.js",
-                            lineNumber: 11,
+                            lineNumber: 12,
                             columnNumber: 25
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/app/components/About.js",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 21
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "flex flex-col items-center justify-center",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _aboutJpegDefault.default),
+                            src: (0, _frame2PngDefault.default),
                             alt: "",
                             style: {
-                                height: "300px",
-                                borderRadius: "50px"
+                                height: "550px"
                             }
                         }, void 0, false, {
                             fileName: "src/app/components/About.js",
-                            lineNumber: 34,
+                            lineNumber: 35,
                             columnNumber: 21
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/app/components/About.js",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app/components/About.js",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app/components/About.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -27743,10 +27743,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../../asset/about/about.jpeg":"404WN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"404WN":[function(require,module,exports) {
-module.exports = require("b1d902005798931d").getBundleURL("bLxZJ") + "about.d002703a.jpeg" + "?" + Date.now();
-
-},{"b1d902005798931d":"lgJ39"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../asset/info/Frame 2.png":"7OFEF"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.16.0
  *
@@ -33601,7 +33598,10 @@ function getDoneFetcher(data) {
     return fetcher;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1tMau":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7OFEF":[function(require,module,exports) {
+module.exports = require("fd9c0e81f5ae10a4").getBundleURL("bLxZJ") + "Frame 2.da41219f.png" + "?" + Date.now();
+
+},{"fd9c0e81f5ae10a4":"lgJ39"}],"1tMau":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$207b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33624,10 +33624,10 @@ var _linkSvgDefault = parcelHelpers.interopDefault(_linkSvg);
 var _reactRouterDom = require("react-router-dom");
 const Project = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex flex-col fix-height",
+        className: "flex flex-col fix-height h-[920px]",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center text-white py-5",
+                className: "flex justify-center text-white",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                     className: "name",
                     children: "Projects"
@@ -34048,7 +34048,7 @@ $RefreshReg$(_c, "Project");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./../../asset/projects/itsm.png":"jxUng","./../../asset/projects/security.png":"9TviT","./../../asset/projects/iengine.png":"hVlOF","./../../asset/projects/inspire.png":"kkgCv","./../../asset/projects/link.svg":"WRvte","react-router-dom":"9xmpe"}],"jxUng":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./../../asset/projects/itsm.png":"jxUng","./../../asset/projects/security.png":"9TviT","./../../asset/projects/iengine.png":"hVlOF","./../../asset/projects/inspire.png":"kkgCv","./../../asset/projects/link.svg":"WRvte","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jxUng":[function(require,module,exports) {
 module.exports = require("399512953d34ee10").getBundleURL("bLxZJ") + "itsm.89ed145c.png" + "?" + Date.now();
 
 },{"399512953d34ee10":"lgJ39"}],"9TviT":[function(require,module,exports) {
@@ -34623,7 +34623,7 @@ $RefreshReg$(_c, "Skill");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../../asset/skills/js.svg":"9g6QJ","../../asset/skills/typescript.svg":"dpsuD","../../asset/skills/redux.svg":"5UzhT","../../asset/skills/css.svg":"kEQFe","../../asset/skills/sass.svg":"h0wkX","../../asset/skills/html.svg":"7DsSZ","../../asset/skills/react.svg":"ck7Hq","../../asset/skills/angular.svg":"4Q2EM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./../../asset/skills/figma.svg":"ltbTI"}],"9g6QJ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../../asset/skills/js.svg":"9g6QJ","../../asset/skills/typescript.svg":"dpsuD","../../asset/skills/redux.svg":"5UzhT","../../asset/skills/css.svg":"kEQFe","../../asset/skills/sass.svg":"h0wkX","../../asset/skills/html.svg":"7DsSZ","../../asset/skills/react.svg":"ck7Hq","../../asset/skills/angular.svg":"4Q2EM","./../../asset/skills/figma.svg":"ltbTI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9g6QJ":[function(require,module,exports) {
 module.exports = require("c1d02db035249b18").getBundleURL("bLxZJ") + "js.c5181b88.svg" + "?" + Date.now();
 
 },{"c1d02db035249b18":"lgJ39"}],"dpsuD":[function(require,module,exports) {
@@ -34678,7 +34678,7 @@ const Intro = ()=>{
         window.location.href = "mailto:itzhazzan@gmail.com?body=Hi Hassan!";
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "grid sm:grid-cols-2",
+        className: "grid sm:grid-cols-2 h-[860px]",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "flex flex-col justify-center items-center",
@@ -34744,13 +34744,13 @@ const Intro = ()=>{
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                                 className: "custom-h1 summary",
                                 children: [
-                                    "I develop web apps using Java as backend ",
+                                    "I develop web apps using Java as backend ,",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                         fileName: "src/app/components/Intro.js",
                                         lineNumber: 30,
-                                        columnNumber: 100
+                                        columnNumber: 101
                                     }, undefined),
-                                    "and Angular and ReactJs on frontend \uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB "
+                                    " Angular and React.Js on frontend \uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB "
                                 ]
                             }, void 0, true, {
                                 fileName: "src/app/components/Intro.js",
@@ -34763,7 +34763,7 @@ const Intro = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "https://cdn.jsdelivr.net/gh/hsn-ali/portfolio@main/Umair%20CV-converted.pdf",
+                            to: "https://cdn.jsdelivr.net/gh/hsn-ali/portfolio@master/Hassan Full Stack Developer.pdf",
                             target: "_blank",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                 className: "btn-lg custom-btn",
@@ -34868,11 +34868,12 @@ const Intro = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center",
+                className: "flex justify-center items-center",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _frame1PngDefault.default),
-                    height: 650,
-                    width: 650,
+                    style: {
+                        "height": "550px"
+                    },
                     alt: "img"
                 }, void 0, false, {
                     fileName: "src/app/components/Intro.js",
@@ -34901,7 +34902,7 @@ $RefreshReg$(_c, "Intro");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./../../asset/projects/itsm.svg":"5bTS9","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./../../asset/info/Frame 1.png":"g1dIV","./../../asset/info/linkdn.svg":"f8zfF","./../../asset/info/github.svg":"lHen9","./../../asset/info/medium.svg":"6Olef","./../../asset/info/gmail.svg":"hsKiP"}],"5bTS9":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./../../asset/projects/itsm.svg":"5bTS9","./../../asset/info/Frame 1.png":"g1dIV","./../../asset/info/linkdn.svg":"f8zfF","./../../asset/info/github.svg":"lHen9","./../../asset/info/medium.svg":"6Olef","./../../asset/info/gmail.svg":"hsKiP","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5bTS9":[function(require,module,exports) {
 module.exports = require("a717727c4ba9a731").getBundleURL("bLxZJ") + "itsm.ba36490b.svg" + "?" + Date.now();
 
 },{"a717727c4ba9a731":"lgJ39"}],"g1dIV":[function(require,module,exports) {
@@ -34983,6 +34984,6 @@ $RefreshReg$(_c, "NotFound");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map
