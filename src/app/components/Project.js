@@ -7,8 +7,8 @@ import link from './../../asset/projects/link.svg'
 import {Link} from "react-router-dom";
 const Project = () => {
     return (
-        <div className="flex flex-col fix-height">
-            <div className="flex justify-center text-white py-5">
+        <div className="flex flex-col fix-height h-[920px]">
+            <div className="flex justify-center text-white">
                 <span className="name">Projects</span>
             </div>
             <div className="grid auto-cols-[30rem] grid-flow-col overflow-x-hidden gap-4 mx-4 slider">

@@ -12,7 +12,7 @@ const Intro = () => {
         window.location.href="mailto:itzhazzan@gmail.com?body=Hi Hassan!";
     }
     return (
-        <div className='grid sm:grid-cols-2'>
+        <div className='grid sm:grid-cols-2 h-[860px]'>
             <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col gap-y-4">
                     <div className="flex flex-col align-top text-white">
@@ -27,10 +27,10 @@ const Intro = () => {
                         <h1 className="custom-h1">Full Stack Developer 🧑🏻‍💻 </h1>
                     </div>
                     <div className="p-2">
-                        <h1 className="custom-h1 summary">I develop web apps using Java as backend <br/>and Angular and
-                            ReactJs on frontend 🧑🏻‍💻 </h1>
+                        <h1 className="custom-h1 summary">I develop web apps using Java as backend ,<br/> Angular and
+                            React.Js on frontend 🧑🏻‍💻 </h1>
                     </div>
-                    <Link to="https://cdn.jsdelivr.net/gh/hsn-ali/portfolio@main/Umair%20CV-converted.pdf" target="_blank">
+                    <Link to="https://cdn.jsdelivr.net/gh/hsn-ali/portfolio@master/Hassan Full Stack Developer.pdf" target="_blank">
                         <button className="btn-lg custom-btn">Resume</button>
                     </Link>
                     <div className="flex gap-6 mt-3 pl-2">
@@ -49,8 +49,8 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center'>
-                <img src={img} height={650} width={650} alt="img"/>
+            <div className='flex justify-center items-center'>
+                <img src={img}  style={{'height': '550px'}} alt="img"/>
             </div>
         </div>
     );
