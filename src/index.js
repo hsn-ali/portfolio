@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import './app/index.scss';
 import './index.css';
 import ReactDOM from 'react-dom/client';

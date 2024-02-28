@@ -17,8 +17,9 @@ const Layout = () => {
                 <Project/>
             </div>
             <div><Skill/></div>
-            <div><About/></div>
-            <div><About/></div>
+            <section className="mb-5 md:mb-20 position-relative">
+                <About/>
+            </section>
 
 
         </div>
