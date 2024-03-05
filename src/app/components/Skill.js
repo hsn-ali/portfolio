@@ -1,12 +1,16 @@
 import js from '../../asset/skills/js.svg'
 import ts from '../../asset/skills/typescript.svg'
 import redux from '../../asset/skills/redux.svg'
-import css from '../../asset/skills/css.svg'
 import sass from '../../asset/skills/sass.svg'
 import html from '../../asset/skills/html.svg'
 import react from '../../asset/skills/react.svg'
 import angular from '../../asset/skills/angular.svg'
 import figma from './../../asset/skills/figma.svg'
+import css from '../../asset/skills/css.svg';
+import java from '../../asset/skills/java.svg';
+import springboot from '../../asset/skills/springboot.svg';
+import postman from '../../asset/skills/postman.svg';
+import npm from '../../asset/skills/npm.svg';
 const Skill = () => {
     return (
         <div className="flex flex-col fix-height">
@@ -52,30 +56,21 @@ const Skill = () => {
                 <div className="p-2 text-2xl py-10">
                     <h1>BACKEND DEVELOPMENT</h1>
                 </div>
-                <div className="grid sm:grid-cols-8" style={{padding: '25px 0'}}>
-                    <div className="flex justify-center">
-                        <img src={js} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                <div className="grid sm:grid-cols-5" style={{padding: '25px 0'}}>
+                    <div className="flex justify-center tool" data-tip="JavaScript">
+                        <img src={js} alt="" style={{cursor: 'pointer'}}/>
                     </div>
-                    <div className="flex justify-center">
-                        <img src={ts} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="TypeScript"/>
+                    <div className="flex justify-center tool" data-tip="TypeScript">
+                        <img src={ts} alt="" style={{cursor: 'pointer'}}/>
                     </div>
-                    <div className="flex justify-center">
-                        <img src={react} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="ReactJs"/>
+                    <div className="flex justify-center tool" data-tip="Postman">
+                        <img src={postman} alt="" style={{cursor: 'pointer'}}/>
                     </div>
-                    <div className="flex justify-center">
-                        <img src={redux} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="Redux"/>
+                    <div className="flex justify-center tool" data-tip="Java">
+                        <img src={java} alt="" style={{cursor: 'pointer'}}/>
                     </div>
-                    <div className="flex justify-center">
-                        <img src={html} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="HTML"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <img src={css} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="CSS"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <img src={sass} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="SASS"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <img src={angular} alt="" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="Angular"/>
+                    <div className="flex justify-center tool" data-tip="Springboot">
+                        <img src={springboot} alt="" style={{cursor: 'pointer'}}/>
                     </div>
                 </div>
             </div>
