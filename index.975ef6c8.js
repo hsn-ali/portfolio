@@ -27743,7 +27743,10 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../asset/info/Frame 2.png":"7OFEF"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../../asset/info/Frame 2.png":"7OFEF","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7OFEF":[function(require,module,exports) {
+module.exports = require("fd9c0e81f5ae10a4").getBundleURL("bLxZJ") + "Frame 2.da41219f.png" + "?" + Date.now();
+
+},{"fd9c0e81f5ae10a4":"lgJ39"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.16.0
  *
@@ -33598,10 +33601,7 @@ function getDoneFetcher(data) {
     return fetcher;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7OFEF":[function(require,module,exports) {
-module.exports = require("fd9c0e81f5ae10a4").getBundleURL("bLxZJ") + "Frame 2.da41219f.png" + "?" + Date.now();
-
-},{"fd9c0e81f5ae10a4":"lgJ39"}],"1tMau":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1tMau":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$207b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33615,12 +33615,18 @@ var _itsmPng = require("./../../asset/projects/itsm.png");
 var _itsmPngDefault = parcelHelpers.interopDefault(_itsmPng);
 var _securityPng = require("./../../asset/projects/security.png");
 var _securityPngDefault = parcelHelpers.interopDefault(_securityPng);
+var _portfolioPng = require("./../../asset/projects/portfolio.png");
+var _portfolioPngDefault = parcelHelpers.interopDefault(_portfolioPng);
 var _ienginePng = require("./../../asset/projects/iengine.png");
 var _ienginePngDefault = parcelHelpers.interopDefault(_ienginePng);
 var _inspirePng = require("./../../asset/projects/inspire.png");
 var _inspirePngDefault = parcelHelpers.interopDefault(_inspirePng);
 var _linkSvg = require("./../../asset/projects/link.svg");
 var _linkSvgDefault = parcelHelpers.interopDefault(_linkSvg);
+var _rmsPng = require("./../../asset/projects/rms.png");
+var _rmsPngDefault = parcelHelpers.interopDefault(_rmsPng);
+var _netflixPng = require("./../../asset/projects/netflix.png");
+var _netflixPngDefault = parcelHelpers.interopDefault(_netflixPng);
 var _reactRouterDom = require("react-router-dom");
 const Project = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33633,12 +33639,12 @@ const Project = ()=>{
                     children: "Projects"
                 }, void 0, false, {
                     fileName: "src/app/components/Project.js",
-                    lineNumber: 12,
+                    lineNumber: 14,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/app/components/Project.js",
-                lineNumber: 11,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33661,12 +33667,12 @@ const Project = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Project.js",
-                                    lineNumber: 17,
+                                    lineNumber: 19,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 16,
+                                lineNumber: 18,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33677,7 +33683,7 @@ const Project = ()=>{
                                         children: "ITSM"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 20,
+                                        lineNumber: 22,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -33685,7 +33691,7 @@ const Project = ()=>{
                                         children: "Intelligent Telecom Site Management System"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 21,
+                                        lineNumber: 23,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33693,13 +33699,13 @@ const Project = ()=>{
                                         children: "Intelligent Telecom Site Management System (ITSM) refers to a specialized system or platform used in the telecommunications industry to efficiently manage and monitor telecom sites and related infrastructure. The aim of ITSM in this context is to enhance the operational efficiency, performance, and maintenance of telecom sites, which are critical for providing communication services."
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 22,
+                                        lineNumber: 24,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33707,13 +33713,13 @@ const Project = ()=>{
                                 children: "Javascript | Angular > 8 | Typescript | Bootstrap | SASS | REDUX | NPM"
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 27,
+                                lineNumber: 29,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Project.js",
-                        lineNumber: 15,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33733,12 +33739,12 @@ const Project = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Project.js",
-                                    lineNumber: 31,
+                                    lineNumber: 33,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 30,
+                                lineNumber: 32,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33749,7 +33755,7 @@ const Project = ()=>{
                                         children: "Inspire SuperMart"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 34,
+                                        lineNumber: 36,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -33757,7 +33763,7 @@ const Project = ()=>{
                                         children: "Online Grocery Shopping Platform"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 35,
+                                        lineNumber: 37,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33765,13 +33771,13 @@ const Project = ()=>{
                                         children: '"Inspire Super Mart" is a comprehensive site encompassing grocery items, a sophisticated cart system, and intuitive filtering capabilities. This project aims to revolutionize the online shopping experience for groceries, offering convenience, efficiency, and an extensive selection of products. With robust features such as seamless navigation, personalized cart management, and dynamic filtering options, Inspire Super Mart sets a new standard for online grocery shopping platforms.'
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 36,
+                                        lineNumber: 38,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 33,
+                                lineNumber: 35,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33779,7 +33785,7 @@ const Project = ()=>{
                                 children: "Javascript | Angular > 8 | Typescript | Bootstrap | SASS | NPM"
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 43,
+                                lineNumber: 45,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -33788,6 +33794,7 @@ const Project = ()=>{
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     src: (0, _linkSvgDefault.default),
                                     alt: "link-icon",
+                                    className: "shadow-xl",
                                     style: {
                                         position: "absolute",
                                         top: "2.3%",
@@ -33795,18 +33802,18 @@ const Project = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Project.js",
-                                    lineNumber: 44,
+                                    lineNumber: 46,
                                     columnNumber: 82
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Project.js",
-                        lineNumber: 29,
+                        lineNumber: 31,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33826,12 +33833,12 @@ const Project = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Project.js",
-                                    lineNumber: 48,
+                                    lineNumber: 50,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33842,7 +33849,7 @@ const Project = ()=>{
                                         children: "I-ENGINE"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 51,
+                                        lineNumber: 53,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -33850,7 +33857,7 @@ const Project = ()=>{
                                         children: "IEngine ~ End To End Solutions"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 52,
+                                        lineNumber: 54,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33858,13 +33865,13 @@ const Project = ()=>{
                                         children: "Essential modules include Inventory, Assets, Live Site Management, Auto Tickets System, and RAN. These handle tracking assets, managing telecom items, real-time site monitoring, automated issue handling, and optimizing the radio access network."
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 53,
+                                        lineNumber: 55,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 50,
+                                lineNumber: 52,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33872,13 +33879,13 @@ const Project = ()=>{
                                 children: "Javascript | Angular > 14 | Typescript | Bootstrap | SASS | REDUX | NebularUI"
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 56,
+                                lineNumber: 58,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Project.js",
-                        lineNumber: 46,
+                        lineNumber: 48,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33891,19 +33898,19 @@ const Project = ()=>{
                                 className: "card-itsm rounded-xl",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     className: "rounded-xl",
-                                    src: (0, _ienginePngDefault.default),
+                                    src: (0, _netflixPngDefault.default),
                                     alt: "",
                                     style: {
                                         width: "470px"
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Project.js",
-                                    lineNumber: 60,
+                                    lineNumber: 62,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Project.js",
-                                lineNumber: 59,
+                                lineNumber: 61,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33911,90 +33918,18 @@ const Project = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                         className: "font-bold text-lg mb-2 ",
-                                        children: "PORTFOLIO"
-                                    }, void 0, false, {
-                                        fileName: "src/app/components/Project.js",
-                                        lineNumber: 63,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                                        className: "font-bold text-lg mb-2 ",
-                                        children: "Portfolio for show case"
-                                    }, void 0, false, {
-                                        fileName: "src/app/components/Project.js",
-                                        lineNumber: 64,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "text-sm",
-                                        children: "portfolio offers a concise snapshot of my skills and experiences, featuring a variety of projects across different domains. From web development to data analysis, each project highlights my ability to deliver quality solutions and drive results. It serves as a testament to my expertise and commitment to excellence in the field of technology."
+                                        children: "NETFLIX-GPT"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
                                         lineNumber: 65,
                                         columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/app/components/Project.js",
-                                lineNumber: 62,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card-info text-center",
-                                children: "Javascript | React.JS | Tailwind | SASS | NPM"
-                            }, void 0, false, {
-                                fileName: "src/app/components/Project.js",
-                                lineNumber: 70,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/app/components/Project.js",
-                        lineNumber: 58,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-100 slide-track h-[575px] p-2 rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl text-white",
-                        style: {
-                            background: "#2f2f2f"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card-itsm rounded-xl",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "rounded-xl",
-                                    src: (0, _securityPngDefault.default),
-                                    alt: "",
-                                    style: {
-                                        width: "470px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "src/app/components/Project.js",
-                                    lineNumber: 74,
-                                    columnNumber: 25
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/app/components/Project.js",
-                                lineNumber: 73,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "p-2 h-[235px] text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        className: "font-bold text-lg mb-2 ",
-                                        children: "ITSM"
-                                    }, void 0, false, {
-                                        fileName: "src/app/components/Project.js",
-                                        lineNumber: 77,
-                                        columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                         className: "font-bold text-lg mb-2 ",
-                                        children: "Intelligent Telecom Site Management System"
+                                        children: "Netflix Open AI Combo"
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 78,
+                                        lineNumber: 66,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34002,13 +33937,107 @@ const Project = ()=>{
                                         children: "Intelligent Telecom Site Management System (ITSM) refers to a specialized system or platform used in the telecommunications industry to efficiently manage and monitor telecom sites and related infrastructure. The aim of ITSM in this context is to enhance the operational efficiency, performance, and maintenance of telecom sites, which are critical for providing communication services."
                                     }, void 0, false, {
                                         fileName: "src/app/components/Project.js",
-                                        lineNumber: 79,
+                                        lineNumber: 67,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/app/components/Project.js",
+                                lineNumber: 64,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card-info text-center text-white",
+                                children: "Javascript | Angular > 8 | Typescript | Bootstrap | SASS | REDUX | NPM"
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
                                 lineNumber: 76,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "https://netflix-talk.web.app/",
+                                target: "_blank",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: (0, _linkSvgDefault.default),
+                                    alt: "link-icon",
+                                    className: "shadow-xl",
+                                    style: {
+                                        position: "absolute",
+                                        top: "2.3%",
+                                        right: "3%"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/app/components/Project.js",
+                                    lineNumber: 77,
+                                    columnNumber: 78
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 77,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/app/components/Project.js",
+                        lineNumber: 60,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-100 slide-track h-[575px] p-2 rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl text-white",
+                        style: {
+                            background: "#2f2f2f"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card-itsm rounded-xl",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "rounded-xl",
+                                    src: (0, _rmsPngDefault.default),
+                                    alt: "",
+                                    style: {
+                                        width: "470px"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/app/components/Project.js",
+                                    lineNumber: 81,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 80,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "p-2 h-[235px] text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        className: "font-bold text-lg mb-2 ",
+                                        children: "RMS"
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 84,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        className: "font-bold text-lg mb-2 ",
+                                        children: "Remote Monitoring System"
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 85,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-sm",
+                                        children: "The RMS (Remote Monitoring System) is a cutting-edge solution that utilizes advanced algorithms to detect filling levels, theft, and consumption patterns in liquid storage tanks. With reduced noise and calibrated measurements for irregularly shaped tanks, the RMS achieves a remarkable 90% improvement in accuracy compared to traditional systems."
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 86,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 83,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34022,19 +34051,113 @@ const Project = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Project.js",
-                        lineNumber: 72,
+                        lineNumber: 79,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-100 slide-track h-[575px] p-2 rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl text-white",
+                        style: {
+                            background: "#2f2f2f"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card-itsm rounded-xl",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "rounded-xl",
+                                    src: (0, _portfolioPngDefault.default),
+                                    alt: "",
+                                    style: {
+                                        width: "470px"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/app/components/Project.js",
+                                    lineNumber: 92,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 91,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "p-2 h-[235px] text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        className: "font-bold text-lg mb-2 ",
+                                        children: "PORTFOLIO"
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 95,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        className: "font-bold text-lg mb-2 ",
+                                        children: "Portfolio for show case"
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 96,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-sm",
+                                        children: "portfolio offers a concise snapshot of my skills and experiences, featuring a variety of projects across different domains. From web development to data analysis, each project highlights my ability to deliver quality solutions and drive results. It serves as a testament to my expertise and commitment to excellence in the field of technology."
+                                    }, void 0, false, {
+                                        fileName: "src/app/components/Project.js",
+                                        lineNumber: 97,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 94,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card-info text-center",
+                                children: "Javascript | React.JS | Tailwind | SASS | NPM"
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 102,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "https://hsn-ali.github.io/portfolio/",
+                                target: "_blank",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: (0, _linkSvgDefault.default),
+                                    alt: "link-icon",
+                                    className: "shadow-lg",
+                                    style: {
+                                        position: "absolute",
+                                        top: "3%",
+                                        right: "4%"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/app/components/Project.js",
+                                    lineNumber: 103,
+                                    columnNumber: 85
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/app/components/Project.js",
+                                lineNumber: 103,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/app/components/Project.js",
+                        lineNumber: 90,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app/components/Project.js",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app/components/Project.js",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 9
     }, undefined);
 };
@@ -34048,13 +34171,16 @@ $RefreshReg$(_c, "Project");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./../../asset/projects/itsm.png":"jxUng","./../../asset/projects/security.png":"9TviT","./../../asset/projects/iengine.png":"hVlOF","./../../asset/projects/inspire.png":"kkgCv","./../../asset/projects/link.svg":"WRvte","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jxUng":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./../../asset/projects/itsm.png":"jxUng","./../../asset/projects/security.png":"9TviT","./../../asset/projects/portfolio.png":"agtD4","./../../asset/projects/iengine.png":"hVlOF","./../../asset/projects/inspire.png":"kkgCv","./../../asset/projects/link.svg":"WRvte","./../../asset/projects/rms.png":"kZjRD","./../../asset/projects/netflix.png":"2IBdf","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jxUng":[function(require,module,exports) {
 module.exports = require("399512953d34ee10").getBundleURL("bLxZJ") + "itsm.89ed145c.png" + "?" + Date.now();
 
 },{"399512953d34ee10":"lgJ39"}],"9TviT":[function(require,module,exports) {
 module.exports = require("d6e4d9a594e0a659").getBundleURL("bLxZJ") + "security.8ac83cf2.png" + "?" + Date.now();
 
-},{"d6e4d9a594e0a659":"lgJ39"}],"hVlOF":[function(require,module,exports) {
+},{"d6e4d9a594e0a659":"lgJ39"}],"agtD4":[function(require,module,exports) {
+module.exports = require("87317d612480b6c0").getBundleURL("bLxZJ") + "portfolio.70137208.png" + "?" + Date.now();
+
+},{"87317d612480b6c0":"lgJ39"}],"hVlOF":[function(require,module,exports) {
 module.exports = require("6c6e123e21b8f74e").getBundleURL("bLxZJ") + "iengine.98d7e765.png" + "?" + Date.now();
 
 },{"6c6e123e21b8f74e":"lgJ39"}],"kkgCv":[function(require,module,exports) {
@@ -34063,7 +34189,13 @@ module.exports = require("e6072ea4cd21dfc").getBundleURL("bLxZJ") + "inspire.bc2
 },{"e6072ea4cd21dfc":"lgJ39"}],"WRvte":[function(require,module,exports) {
 module.exports = require("db9ad2cf6adff059").getBundleURL("bLxZJ") + "link.bd88be0f.svg" + "?" + Date.now();
 
-},{"db9ad2cf6adff059":"lgJ39"}],"4fs0Y":[function(require,module,exports) {
+},{"db9ad2cf6adff059":"lgJ39"}],"kZjRD":[function(require,module,exports) {
+module.exports = require("b1d2ec8e016407c").getBundleURL("bLxZJ") + "rms.3a172806.png" + "?" + Date.now();
+
+},{"b1d2ec8e016407c":"lgJ39"}],"2IBdf":[function(require,module,exports) {
+module.exports = require("d3c0d30b3460da96").getBundleURL("bLxZJ") + "netflix.83d59130.png" + "?" + Date.now();
+
+},{"d3c0d30b3460da96":"lgJ39"}],"4fs0Y":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8a7a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34079,8 +34211,6 @@ var _typescriptSvg = require("../../asset/skills/typescript.svg");
 var _typescriptSvgDefault = parcelHelpers.interopDefault(_typescriptSvg);
 var _reduxSvg = require("../../asset/skills/redux.svg");
 var _reduxSvgDefault = parcelHelpers.interopDefault(_reduxSvg);
-var _cssSvg = require("../../asset/skills/css.svg");
-var _cssSvgDefault = parcelHelpers.interopDefault(_cssSvg);
 var _sassSvg = require("../../asset/skills/sass.svg");
 var _sassSvgDefault = parcelHelpers.interopDefault(_sassSvg);
 var _htmlSvg = require("../../asset/skills/html.svg");
@@ -34091,6 +34221,16 @@ var _angularSvg = require("../../asset/skills/angular.svg");
 var _angularSvgDefault = parcelHelpers.interopDefault(_angularSvg);
 var _figmaSvg = require("./../../asset/skills/figma.svg");
 var _figmaSvgDefault = parcelHelpers.interopDefault(_figmaSvg);
+var _cssSvg = require("../../asset/skills/css.svg");
+var _cssSvgDefault = parcelHelpers.interopDefault(_cssSvg);
+var _javaSvg = require("../../asset/skills/java.svg");
+var _javaSvgDefault = parcelHelpers.interopDefault(_javaSvg);
+var _springbootSvg = require("../../asset/skills/springboot.svg");
+var _springbootSvgDefault = parcelHelpers.interopDefault(_springbootSvg);
+var _postmanSvg = require("../../asset/skills/postman.svg");
+var _postmanSvgDefault = parcelHelpers.interopDefault(_postmanSvg);
+var _npmSvg = require("../../asset/skills/npm.svg");
+var _npmSvgDefault = parcelHelpers.interopDefault(_npmSvg);
 const Skill = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "flex flex-col fix-height",
@@ -34102,12 +34242,12 @@ const Skill = ()=>{
                     children: "Skills"
                 }, void 0, false, {
                     fileName: "src/app/components/Skill.js",
-                    lineNumber: 14,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/app/components/Skill.js",
-                lineNumber: 13,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34121,19 +34261,19 @@ const Skill = ()=>{
                                 "I try to take responsibility to craft interactive user experience using ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 18,
+                                    lineNumber: 22,
                                     columnNumber: 123
                                 }, undefined),
                                 " modern frontend architecture"
                             ]
                         }, void 0, true, {
                             fileName: "src/app/components/Skill.js",
-                            lineNumber: 18,
+                            lineNumber: 22,
                             columnNumber: 21
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/app/components/Skill.js",
-                        lineNumber: 17,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34142,12 +34282,12 @@ const Skill = ()=>{
                             children: "FRONTEND DEVELOPMENT"
                         }, void 0, false, {
                             fileName: "src/app/components/Skill.js",
-                            lineNumber: 21,
+                            lineNumber: 25,
                             columnNumber: 21
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/app/components/Skill.js",
-                        lineNumber: 20,
+                        lineNumber: 24,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34167,12 +34307,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 25,
+                                    lineNumber: 29,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 24,
+                                lineNumber: 28,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34186,12 +34326,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 28,
+                                    lineNumber: 32,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 27,
+                                lineNumber: 31,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34205,12 +34345,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 31,
+                                    lineNumber: 35,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 30,
+                                lineNumber: 34,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34224,12 +34364,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 34,
+                                    lineNumber: 38,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 33,
+                                lineNumber: 37,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34243,12 +34383,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 37,
+                                    lineNumber: 41,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 36,
+                                lineNumber: 40,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34262,12 +34402,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 40,
+                                    lineNumber: 44,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 39,
+                                lineNumber: 43,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34281,12 +34421,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 43,
+                                    lineNumber: 47,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 42,
+                                lineNumber: 46,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34300,12 +34440,12 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 46,
+                                    lineNumber: 50,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 45,
+                                lineNumber: 49,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34319,18 +34459,18 @@ const Skill = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 49,
+                                    lineNumber: 53,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 48,
+                                lineNumber: 52,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Skill.js",
-                        lineNumber: 23,
+                        lineNumber: 27,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34339,204 +34479,131 @@ const Skill = ()=>{
                             children: "BACKEND DEVELOPMENT"
                         }, void 0, false, {
                             fileName: "src/app/components/Skill.js",
-                            lineNumber: 53,
+                            lineNumber: 57,
                             columnNumber: 21
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/app/components/Skill.js",
-                        lineNumber: 52,
+                        lineNumber: 56,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "grid sm:grid-cols-8",
+                        className: "grid sm:grid-cols-5",
                         style: {
                             padding: "25px 0"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
+                                className: "flex justify-center tool",
+                                "data-tip": "JavaScript",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     src: (0, _jsSvgDefault.default),
                                     alt: "",
                                     style: {
                                         cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "JavaScript"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 57,
+                                    lineNumber: 61,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 56,
+                                lineNumber: 60,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
+                                className: "flex justify-center tool",
+                                "data-tip": "TypeScript",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     src: (0, _typescriptSvgDefault.default),
                                     alt: "",
                                     style: {
                                         cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "TypeScript"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 60,
+                                    lineNumber: 64,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 59,
+                                lineNumber: 63,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
+                                className: "flex justify-center tool",
+                                "data-tip": "Postman",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _reactSvgDefault.default),
+                                    src: (0, _postmanSvgDefault.default),
                                     alt: "",
                                     style: {
                                         cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "ReactJs"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 63,
+                                    lineNumber: 67,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 62,
+                                lineNumber: 66,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
+                                className: "flex justify-center tool",
+                                "data-tip": "Java",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _reduxSvgDefault.default),
+                                    src: (0, _javaSvgDefault.default),
                                     alt: "",
                                     style: {
                                         cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "Redux"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 66,
+                                    lineNumber: 70,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 65,
+                                lineNumber: 69,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
+                                className: "flex justify-center tool",
+                                "data-tip": "Springboot",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _htmlSvgDefault.default),
+                                    src: (0, _springbootSvgDefault.default),
                                     alt: "",
                                     style: {
                                         cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "HTML"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/app/components/Skill.js",
-                                    lineNumber: 69,
+                                    lineNumber: 73,
                                     columnNumber: 25
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/app/components/Skill.js",
-                                lineNumber: 68,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _cssSvgDefault.default),
-                                    alt: "",
-                                    style: {
-                                        cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "CSS"
-                                }, void 0, false, {
-                                    fileName: "src/app/components/Skill.js",
-                                    lineNumber: 72,
-                                    columnNumber: 25
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/app/components/Skill.js",
-                                lineNumber: 71,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _sassSvgDefault.default),
-                                    alt: "",
-                                    style: {
-                                        cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "SASS"
-                                }, void 0, false, {
-                                    fileName: "src/app/components/Skill.js",
-                                    lineNumber: 75,
-                                    columnNumber: 25
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/app/components/Skill.js",
-                                lineNumber: 74,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex justify-center",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _angularSvgDefault.default),
-                                    alt: "",
-                                    style: {
-                                        cursor: "pointer"
-                                    },
-                                    "data-toggle": "tooltip",
-                                    "data-placement": "top",
-                                    title: "Angular"
-                                }, void 0, false, {
-                                    fileName: "src/app/components/Skill.js",
-                                    lineNumber: 78,
-                                    columnNumber: 25
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/app/components/Skill.js",
-                                lineNumber: 77,
+                                lineNumber: 72,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/app/components/Skill.js",
-                        lineNumber: 55,
+                        lineNumber: 59,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app/components/Skill.js",
-                lineNumber: 16,
+                lineNumber: 20,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app/components/Skill.js",
-        lineNumber: 12,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 /*<div className="container">
@@ -34623,7 +34690,7 @@ $RefreshReg$(_c, "Skill");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../../asset/skills/js.svg":"9g6QJ","../../asset/skills/typescript.svg":"dpsuD","../../asset/skills/redux.svg":"5UzhT","../../asset/skills/css.svg":"kEQFe","../../asset/skills/sass.svg":"h0wkX","../../asset/skills/html.svg":"7DsSZ","../../asset/skills/react.svg":"ck7Hq","../../asset/skills/angular.svg":"4Q2EM","./../../asset/skills/figma.svg":"ltbTI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9g6QJ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../../asset/skills/js.svg":"9g6QJ","../../asset/skills/typescript.svg":"dpsuD","../../asset/skills/redux.svg":"5UzhT","../../asset/skills/sass.svg":"h0wkX","../../asset/skills/html.svg":"7DsSZ","../../asset/skills/react.svg":"ck7Hq","../../asset/skills/angular.svg":"4Q2EM","./../../asset/skills/figma.svg":"ltbTI","../../asset/skills/css.svg":"kEQFe","../../asset/skills/java.svg":"nu9nj","../../asset/skills/springboot.svg":"hjh6s","../../asset/skills/postman.svg":"a7fOL","../../asset/skills/npm.svg":"4swHt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9g6QJ":[function(require,module,exports) {
 module.exports = require("c1d02db035249b18").getBundleURL("bLxZJ") + "js.c5181b88.svg" + "?" + Date.now();
 
 },{"c1d02db035249b18":"lgJ39"}],"dpsuD":[function(require,module,exports) {
@@ -34632,10 +34699,7 @@ module.exports = require("ccc8559c0a497a98").getBundleURL("bLxZJ") + "typescript
 },{"ccc8559c0a497a98":"lgJ39"}],"5UzhT":[function(require,module,exports) {
 module.exports = require("9b0a51a5ebd2af7f").getBundleURL("bLxZJ") + "redux.e11e3797.svg" + "?" + Date.now();
 
-},{"9b0a51a5ebd2af7f":"lgJ39"}],"kEQFe":[function(require,module,exports) {
-module.exports = require("ff6e9a640bf2612e").getBundleURL("bLxZJ") + "css.886c22ee.svg" + "?" + Date.now();
-
-},{"ff6e9a640bf2612e":"lgJ39"}],"h0wkX":[function(require,module,exports) {
+},{"9b0a51a5ebd2af7f":"lgJ39"}],"h0wkX":[function(require,module,exports) {
 module.exports = require("c97a6e0e7ebc38f7").getBundleURL("bLxZJ") + "sass.ef89c2ee.svg" + "?" + Date.now();
 
 },{"c97a6e0e7ebc38f7":"lgJ39"}],"7DsSZ":[function(require,module,exports) {
@@ -34650,7 +34714,22 @@ module.exports = require("dc7382c4449a67d7").getBundleURL("bLxZJ") + "angular.c5
 },{"dc7382c4449a67d7":"lgJ39"}],"ltbTI":[function(require,module,exports) {
 module.exports = require("c81e09b579303378").getBundleURL("bLxZJ") + "figma.646a7146.svg" + "?" + Date.now();
 
-},{"c81e09b579303378":"lgJ39"}],"2V5YM":[function(require,module,exports) {
+},{"c81e09b579303378":"lgJ39"}],"kEQFe":[function(require,module,exports) {
+module.exports = require("ff6e9a640bf2612e").getBundleURL("bLxZJ") + "css.886c22ee.svg" + "?" + Date.now();
+
+},{"ff6e9a640bf2612e":"lgJ39"}],"nu9nj":[function(require,module,exports) {
+module.exports = require("69534d66a1484d5e").getBundleURL("bLxZJ") + "java.88623a23.svg" + "?" + Date.now();
+
+},{"69534d66a1484d5e":"lgJ39"}],"hjh6s":[function(require,module,exports) {
+module.exports = require("4afca553c5833ad0").getBundleURL("bLxZJ") + "springboot.ff087a7f.svg" + "?" + Date.now();
+
+},{"4afca553c5833ad0":"lgJ39"}],"a7fOL":[function(require,module,exports) {
+module.exports = require("bfc9f7fd09fad3ab").getBundleURL("bLxZJ") + "postman.e4ac7e0b.svg" + "?" + Date.now();
+
+},{"bfc9f7fd09fad3ab":"lgJ39"}],"4swHt":[function(require,module,exports) {
+module.exports = require("209abd0fbbb91f0a").getBundleURL("bLxZJ") + "npm.e6db4477.svg" + "?" + Date.now();
+
+},{"209abd0fbbb91f0a":"lgJ39"}],"2V5YM":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5c6f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
